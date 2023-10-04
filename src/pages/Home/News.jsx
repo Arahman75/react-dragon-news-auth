@@ -1,12 +1,11 @@
 import React from 'react';
 
-const News = ({ news }) => {
-    const { name, author, thumbnail_url } = news;
-    console.log(news.author);
+const News = () => {
+
     return (
         <div>
-            <img src={thumbnail_url} alt="" />
-            <h2>This isnew{name}</h2>
+
+            <h2>This is a news page</h2>
         </div>
     );
 };
